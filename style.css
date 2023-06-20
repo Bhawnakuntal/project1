@@ -4,18 +4,37 @@
 }
 nav{
     display: flex;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     justify-content: space-around;
     padding:10px 5px ;
-    background-color:rgb(17, 152, 201);
-    
+    background-color:black;
+    height: 60px;
 }
-nav a{
+nav a:nth-of-type(1) i{
     text-decoration: none;
-    color: white;
-
+    color:rgb(6, 196, 6);
+    font-size: 50px;
+    padding-bottom: 10px;
+   
 }
-nav ul li:nth-of-type(4){
+#spotify{
+    font-family: 'DM Serif Text', serif;
+    font-size:larger;
+    color: white;
+    text-decoration: none;
+}
+#fav{
+    font-family: 'DM Serif Text', serif;
+    color: white;
+    font-size:medium;
+    text-decoration:none ;
+}
+nav a:nth-of-type(2) i{
+    color:white;
+    font-size: 30px;
+    padding-top: 7px;
+}
+nav ul{
     list-style: none;
     display: flex;
     width: 350px;
@@ -27,3 +46,69 @@ nav ul li:nth-of-type(4){
         align-items: center;
     }
 }
+#search-bar {
+    position: relative;
+  }
+  
+  #search-input {
+    line-height: 2px;
+    padding: 0.2rem 2rem;
+    font-size: 1.1rem;
+    background-color: rgb(83, 85, 103);
+  }
+nav div input::placeholder{
+    color: white;
+  }
+  
+  #search-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0.6rem;
+    padding: 0px 0.3rem;
+    color: white;
+  }
+  
+  #mic-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0.6rem;
+    padding: 0px 0.5rem;
+    color: white;
+  }
+  nav div img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+  div ul li{
+    display: inline-block;
+  }
+  .special{
+    display: inline-block;
+    grid-auto-flow: row;
+    color: white;
+    display: grid;
+  }
+  .special ul li img{
+    height: 65px;
+    width: 65px;
+  }
+  
+  .que a{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  .Que {
+    color: aqua;
+    font-weight: bold;
+    margin-left: 400px;
+  }
+  .special ul li:nth-of-type(3){
+    display: flex;
+    justify-content:space-evenly;
+    
+  }
